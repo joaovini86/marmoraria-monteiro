@@ -1,0 +1,35 @@
+/* Arquivo: css/style.css */
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Define uma classe 'logo' */
+.logo {
+    max-width: 70px; /* Ajuste a largura máxima conforme necessário */
+    height: 70px;
+}
+
+.hero-item {
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Ajuste a altura conforme necessário */
+  }
+  .produtos {
+    width: 300px;       /* Defina a largura desejada */
+    height: auto;      /* Mantém a proporção */
+    object-fit: cover; /* Preenche o espaço mantendo a proporção, cortando se necessário */
+    object-position: center; /* Centraliza a imagem dentro do espaço */
+}

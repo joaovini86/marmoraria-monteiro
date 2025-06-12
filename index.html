@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Marmoraria Monteiro - Excelência em mármores, granitos e pedras ornamentais. Solicite seu orçamento sem compromisso.">
+    <title>Marmoraria Monteiro | Tradição em Pedras Naturais</title>
+
+    <!-- Favicon e ícones -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/logo/logo.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Structured Data para SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HomeAndConstructionBusiness",
+        "name": "Marmoraria Monteiro",
+        "image": "https://www.marmorariamonteiro.com.br/images/logo/logo-principal.png",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Rua dos Mármores, 123",
+            "addressLocality": "São Paulo",
+            "addressRegion": "SP",
+            "postalCode": "01234-567",
+            "addressCountry": "BR"
+        },
+        "telephone": "+551199999-9999",
+        "url": "https://www.marmorariamonteiro.com.br"
+    }
+    </script>
+</head>
+<body>
+    <!-- Header com Logo da Marmoraria Monteiro -->
+    <header class="header-area">
+        <div class="top-header bg-dark text-white py-2">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="contact-info">
+                            <span><i class="bi bi-telephone-fill me-1"></i> (11) 99999-9999</span>
+                            <span class="ms-3"><i class="bi bi-envelope-fill me-1"></i> contato@marmorariamonteiro.com.br</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <div class="header-social">
+                            <a href="#" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="/">
+                    <img src="../images/logo/logo.png" alt="Marmoraria Monteiro" class="logo">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="/">Início</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/sobre">Sobre Nós</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="materiaisDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Materiais
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="materiaisDropdown">
+                                <li><a class="dropdown-item" href="/materiais/marmores">Mármores</a></li>
+                                <li><a class="dropdown-item" href="/materiais/granitos">Granitos</a></li>
+                                <li><a class="dropdown-item" href="/materiais/quartzos">Quartzos</a></li>
+                                <li><a class="dropdown-item" href="/materiais/importados">Importados</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="servicosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Serviços
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="servicosDropdown">
+                                <li><a class="dropdown-item" href="/servicos/bancadas">Bancadas</a></li>
+                                <li><a class="dropdown-item" href="/servicos/pisos">Pisos</a></li>
+                                <li><a class="dropdown-item" href="/servicos/escadas">Escadas</a></li>
+                                <li><a class="dropdown-item" href="/servicos/lavanderias">Lavanderias</a></li>
+                                <li><a class="dropdown-item" href="/servicos/revestimentos">Revestimentos</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="/portfolio">Portfólio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/contato">Contato</a></li>
+                    </ul>
+                    <div class="header-btn ms-4">
+                        <a href="/orcamento" class="btn btn-primary">Solicite Orçamento</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Banner Principal da Marmoraria Monteiro -->
+    <section class="hero-section">
+        <div class="swiper hero-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide hero-item" style="background-image: url('../images/banners/cozinha.jpg');">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <div class="hero-content">
+                                    <h1 class="display-4 fw-bold mb-4">Marmoraria Monteiro</h1>
+                                    <h2 class="h3 fw-light mb-4">Tradição e excelência em pedras naturais desde 2003</h2>
+                                    <p class="lead mb-5">Bancadas, pisos e revestimentos em mármore e granito com o melhor custo-benefício da região.</p>
+                                    <div class="hero-btns">
+                                        <a href="/portfolio" class="btn btn-light btn-lg me-3">Ver Trabalhos</a>
+                                        <a href="/orcamento" class="btn btn-primary btn-lg">Orçamento Gratuito</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide hero-item" style="background-image: url('../images/banners/cozinha2.jpg');">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <div class="hero-content">
+                                    <h2 class="display-4 fw-bold mb-4">Pedras Naturais e Tecnológicas</h2>
+                                    <p class="lead mb-5">Do clássico ao contemporâneo, temos a solução perfeita para o seu projeto.</p>
+                                    <div class="hero-btns">
+                                        <a href="/materiais" class="btn btn-light btn-lg me-3">Ver Materiais</a>
+                                        <a href="/contato" class="btn btn-primary btn-lg">Agendar Visita</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Mais slides podem ser adicionados aqui -->
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre a Marmoraria Monteiro -->
+    <section class="about-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="about-image position-relative">
+                        <img src="../images/sobre/fachada-marmoraria-monteiro.jpg" alt="Fachada da Marmoraria Monteiro" class="img-fluid rounded-3 shadow">
+                        <div class="experience-badge">
+                            <span class="years">30+</span>
+                            <span class="text">Anos de Experiência</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content ps-lg-4">
+                        <div class="section-header">
+                            <h6 class="text-primary fw-bold mb-3">CONHEÇA NOSSA HISTÓRIA</h6>
+                            <h2 class="section-title mb-4">Marmoraria Monteiro: Tradição familiar em mármores e granitos</h2>
+                        </div>
+                        <p class="lead">Há mais de 30 anos, a Marmoraria Monteiro vem transformando residências e empresas com projetos personalizados em pedras naturais e tecnológicas.</p>
+                        <p>Fundada pela família Monteiro em 1992, nossa empresa cresceu mantendo o compromisso com a qualidade e excelência no atendimento. Trabalhamos com os melhores materiais do mercado nacional e internacional, garantindo acabamentos perfeitos e durabilidade para nossos clientes.</p>
+                        <div class="row mt-4">
+                            <div class="col-sm-6">
+                                <div class="feature-item d-flex align-items-center mb-3">
+                                    <div class="icon me-3">
+                                        <i class="bi bi-check-circle-fill text-primary"></i>
+                                    </div>
+                                    <h5 class="mb-0">Materiais Certificados</h5>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="feature-item d-flex align-items-center mb-3">
+                                    <div class="icon me-3">
+                                        <i class="bi bi-check-circle-fill text-primary"></i>
+                                    </div>
+                                    <h5 class="mb-0">Acabamento Premium</h5>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="feature-item d-flex align-items-center mb-3">
+                                    <div class="icon me-3">
+                                        <i class="bi bi-check-circle-fill text-primary"></i>
+                                    </div>
+                                    <h5 class="mb-0">Entrega Pontual</h5>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="feature-item d-flex align-items-center mb-3">
+                                    <div class="icon me-3">
+                                        <i class="bi bi-check-circle-fill text-primary"></i>
+                                    </div>
+                                    <h5 class="mb-0">Garantia de 5 anos</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="/sobre" class="btn btn-outline-primary mt-4">Saiba mais sobre nós</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Materiais em Destaque da Marmoraria Monteiro -->
+    <section class="materials-section py-5 bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h6 class="text-primary fw-bold mb-3">NOSSOS MATERIAIS</h6>
+                <h2 class="section-title">Conheça nosso catálogo exclusivo</h2>
+                <p class="section-desc mx-auto mt-3">A Marmoraria Monteiro trabalha com uma seleção premium de mármores, granitos e pedras tecnológicas para todos os ambientes.</p>
+            </div>
+
+            <div class="materials-filter mb-4 text-center">
+                <button class="btn btn-outline-dark mx-1 active" data-filter="all">Todos</button>
+                <button class="btn btn-outline-dark mx-1" data-filter="marmores">Mármores</button>
+                <button class="btn btn-outline-dark mx-1" data-filter="granitos">Granitos</button>
+                <button class="btn btn-outline-dark mx-1" data-filter="quartzos">Quartzos</button>
+                <button class="btn btn-outline-dark mx-1" data-filter="importados">Importados</button>
+            </div>
+
+            <div class="row g-4 materials-gallery">
+                <!-- Mármore -->
+                <div class="col-lg-4 col-md-6 material-item marmores show">
+                    <div class="material-card">
+                        <div class="material-img">
+                            <img src="../images/produtos/marmore-carrara.jpg" alt="Mármore Carrara" class="produtos">
+                            <div class="material-overlay">
+                                <div class="material-btns">
+                                    <a href="/materiais/marmore-carrara" class="btn btn-sm btn-primary">Detalhes</a>
+                                    <a href="/orcamento?material=marmore-carrara" class="btn btn-sm btn-light">Orçamento</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="material-info p-3">
+                            <h3 class="material-title">Mármore Carrara</h3>
+                            <p class="material-category">Mármore Italiano</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Granito -->
+                <div class="col-lg-4 col-md-6 material-item granitos show">
+                    <div class="material-card">
+                        <div class="material-img">
+                            <img src="../images/produtos/marmore-preto.jpg" alt="Granito Preto São Gabriel" class="produtos">
+                            <div class="material-overlay">
+                                <div class="material-btns">
+                                    <a href="/materiais/granito-preto-sao-gabriel" class="btn btn-sm btn-primary">Detalhes</a>
+                                    <a href="/orcamento?material=granito-preto-sao-gabriel" class="btn btn-sm btn-light">Orçamento</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="material-info p-3">
+                            <h3 class="material-title">Preto São Gabriel</h3>
+                            <p class="material-category">Granito Brasileiro</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quartzo -->
+                <div class="col-lg-4 col-md-6 material-item quartzos show">
+                    <div class="material-card">
+                        <div class="material-img">
+                            <img src="../images/produtos/marmore-branco.jpg" alt="Quartzo Branco Prime" class="produtos">
+                            <div class="material-overlay">
+                                <div class="material-btns">
+                                    <a href="/materiais/quartzo-branco-prime" class="btn btn-sm btn-primary">Detalhes</a>
+                                    <a href="/orcamento?material=quartzo-branco-prime" class="btn btn-sm btn-light">Orçamento</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="material-info p-3">
+                            <h3 class="material-title">Branco Prime</h3>
+                            <p class="material-category">Quartzo Tecnológico</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mais itens podem ser adicionados aqui -->
+            </div>
+
+            <div class="text-center mt-5">
+                <a href="/materiais" class="btn btn-primary btn-lg">Ver catálogo completo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços da Marmoraria Monteiro -->
+    <section class="services-section py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h6 class="text-primary fw-bold mb-3">O QUE FAZEMOS</h6>
+                <h2 class="section-title">Nossos Serviços Especializados</h2>
+                <p class="section-desc mx-auto mt-3">A Marmoraria Monteiro oferece soluções completas para sua residência ou empresa.</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card text-center h-100">
+                        <div class="service-icon mb-4">
+                            <img src="../images/icones/bancada-cozinha.svg" alt="Ícone de bancada" class="img-fluid" width="80">
+                        </div>
+                        <h3 class="service-title mb-3">Bancadas de Cozinha</h3>
+                        <p class="service-desc mb-4">Bancadas sob medida para sua cozinha com acabamentos personalizados e cuba esculpida.</p>
+                        <a href="/servicos/bancadas-cozinha" class="btn btn-outline-primary">Saiba mais</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card text-center h-100">
+                        <div class="service-icon mb-4">
+                            <img src="../images/icones/bancada-banheiro.svg" alt="Ícone de banheiro" class="img-fluid" width="80">
+                        </div>
+                        <h3 class="service-title mb-3">Bancadas de Banheiro</h3>
+                        <p class="service-desc mb-4">Elegância e sofisticação para seus banheiros com pedras naturais e soluções personalizadas.</p>
+                        <a href="/servicos/bancadas-banheiro" class="btn btn-outline-primary">Saiba mais</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card text-center h-100">
+                        <div class="service-icon mb-4">
+                            <img src="../images/icones/piso-revestimento.svg" alt="Ícone de piso" class="img-fluid" width="80">
+                        </div>
+                        <h3 class="service-title mb-3">Pisos e Revestimentos</h3>
+                        <p class="service-desc mb-4">Pisos em mármore e granito para áreas internas e externas, escadas e soleiras.</p>
+                        <a href="/servicos/pisos-revestimentos" class="btn btn-outline-primary">Saiba mais</a>
+                    </div>
+                </div>
+
+                <!-- Mais serviços podem ser adicionados aqui -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Chamada para Ação - Orçamento -->
+    <section class="cta-section py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 mb-4 mb-lg-0">
+                    <div class="cta-content">
+                        <h2 class="mb-3">Transforme sua casa com a Marmoraria Monteiro</h2>
+                        <p class="lead mb-0">Entre em contato conosco hoje mesmo e solicite um orçamento sem compromisso.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <a href="/contato" class="btn btn-light btn-lg">Fale Conosco</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio da Marmoraria Monteiro -->
+    <section class="portfolio-section py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h6 class="text-primary fw-bold mb-3">NOSSOS TRABALHOS</h6>
+                <h2 class="section-title">Projetos Realizados</h2>
+                <p class="section-desc mx-auto mt-3">Conheça alguns dos projetos entregues pela Marmoraria Monteiro em residências e empresas.</p>
+            </div>
+
+            <div class="row g-4 portfolio-gallery">
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-item">
+                        <img src="../images/portfolio/cozinha-granito-preto.jpg" alt="Cozinha com granito preto" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h4>Cozinha Residencial</h4>
+                                <p>Bancada em Granito Preto São Gabriel</p>
+                                <a href="/portfolio/cozinha-moderna" class="btn btn-light btn-sm">Ver Projeto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-item">
+                        <img src="../images/portfolio/banheiro-marmore-carrara.jpg" alt="Banheiro com mármore carrara" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h4>Banheiro Master</h4>
+                                <p>Revestimento em Mármore Carrara</p>
+                                <a href="/portfolio/banheiro-luxo" class="btn btn-light btn-sm">Ver Projeto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-item">
+                        <img src="../images/portfolio/escada-granito.jpg" alt="Escada em granito" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h4>Escada Residencial</h4>
+                                <p>Degraus em Granito Itaúnas</p>
+                                <a href="/portfolio/escada-moderna" class="btn btn-light btn-sm">Ver Projeto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mais projetos do portfólio podem ser adicionados aqui -->
+            </div>
+
+            <div class="text-center mt-5">
+                <a href="/portfolio" class="btn btn-outline-primary btn-lg">Ver portfólio completo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos de Clientes da Marmoraria Monteiro -->
+    <section class="testimonials-section py-5 bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h6 class="text-primary fw-bold mb-3">DEPOIMENTOS</h6>
+                <h2 class="section-title">O que nossos clientes dizem</h2>
+            </div>
+
+            <div class="swiper testimonial-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial-card text-center">
+                            <div class="testimonial-img">
+                                <img src="../images/depoimentos/cliente1.jpg" alt="Cliente Ana Silva" class="rounded-circle">
+                            </div>
+                            <div class="testimonial-rating my-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <div class="testimonial-text">
+                                <p>"A Marmoraria Monteiro superou todas as minhas expectativas. O trabalho foi impecável, desde a escolha do material até a instalação. Minha cozinha ficou linda com a bancada de granito que escolhemos juntos."</p>
+                            </div>
+                            <div class="testimonial-author mt-3">
+                                <h5 class="mb-1">Ana Silva</h5>
+                                <p class="mb-0">São Paulo, SP</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-card text-center">
+                            <div class="testimonial-img">
+                                <img src="../images/depoimentos/cliente2.jpg" alt="Cliente Roberto Mendes" class="rounded-circle">
+                            </div>
+                            <div class="testimonial-rating my-3">
+                                 <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <div class="testimonial-text">
+                                <p>"Profissionalismo e pontualidade impecáveis. A equipe da Marmoraria Monteiro foi extremamente atenciosa e competente. O acabamento da minha escada em mármore ficou perfeito, exatamente como eu imaginava."</p>
+                            </div>
+                            <div class="testimonial-author mt-3">
+                                <h5 class="mb-1">Roberto Mendes</h5>
+                                <p class="mb-0">Guarulhos, SP</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mais depoimentos podem ser adicionados aqui -->
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Parceiros da Marmoraria Monteiro -->
+    <section class="partners-section py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h6 class="text-primary fw-bold mb-3">NOSSOS PARCEIROS</h6>
+                <h2 class="section-title">Empresas que confiam em nosso trabalho</h2>
+            </div>
+
+            <div class="swiper partner-slider">
+                <div class="swiper-wrapper align-items-center">
+                    <div class="swiper-slide text-center">
+                        <img src="../images/parceiros/parceiro1.png" alt="Logo Parceiro 1" class="img-fluid">
+                    </div>
+                    <div class="swiper-slide text-center">
+                        <img src="../images/parceiros/parceiro2.png" alt="Logo Parceiro 2" class="img-fluid">
+                    </div>
+                    <div class="swiper-slide text-center">
+                        <img src="../images/parceiros/parceiro3.png" alt="Logo Parceiro 3" class="img-fluid">
+                    </div>
+                    <div class="swiper-slide text-center">
+                        <img src="../images/parceiros/parceiro4.png" alt="Logo Parceiro 4" class="img-fluid">
+                    </div>
+                    <div class="swiper-slide text-center">
+                        <img src="../images/parceiros/parceiro5.png" alt="Logo Parceiro 5" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer da Marmoraria Monteiro -->
+    <footer class="footer-area bg-dark text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-widget">
+                        <div class="footer-logo mb-4">
+                            <img src="../images/logo/marmoraria-monteiro-logo-white.png" alt="Marmoraria Monteiro" class="img-fluid" width="180">
+                        </div>
+                        <p>A Marmoraria Monteiro é especializada em projetos personalizados em mármores, granitos e pedras ornamentais. Atendemos toda a região de São Paulo com qualidade e compromisso.</p>
+                        <div class="footer-social mt-4">
+                            <a href="#" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                            <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-widget">
+                        <h4 class="widget-title mb-4">Links Rápidos</h4>
+                        <ul class="footer-links list-unstyled">
+                            <li><a href="/">Início</a></li>
+                            <li><a href="/sobre">Sobre Nós</a></li>
+                            <li><a href="/materiais">Materiais</a></li>
+                            <li><a href="/servicos">Serviços</a></li>
+                            <li><a href="/portfolio">Portfólio</a></li>
+                            <li><a href="/contato">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h4 class="widget-title mb-4">Horário de Funcionamento</h4>
+                        <ul class="footer-hours list-unstyled">
+                            <li><span>Segunda - Sexta:</span> 8:00 - 18:00</li>
+                            <li><span>Sábado:</span> 8:00 - 13:00</li>
+                            <li><span>Domingo:</span> Fechado</li>
+                        </ul>
+                        <div class="mt-4">
+                            <h4 class="widget-title mb-3">Aceitamos</h4>
+                            <div class="payment-methods">
+                                <img src="../images/pagamentos/payment-methods.png" alt="Métodos de Pagamento" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h4 class="widget-title mb-4">Contato</h4>
+                        <ul class="footer-contact list-unstyled">
+                            <li>
+                                <i class="bi bi-geo-alt"></i>
+                                <span>Rua Vereador Pedro Medeiros, 424<br>Bairro Serraria<br>Santa Catarina - SC, 88115-250</span>
+                            </li>
+                           <li>
+                                <i class="bi bi-telephone"></i>
+                                <span>(48) 99814-6361</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-envelope"></i>
+                                <span>contato@marmorariamonteiro.com.br</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="mt-4 mb-3 bg-light opacity-25">
+
+            <div class="footer-bottom">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="copyright mb-md-0">
+                            &copy; 2025 Marmoraria Monteiro. Todos os direitos reservados.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="footer-links text-md-end">
+                            <a href="/politica-privacidade">Política de Privacidade</a>
+                            <a href="/termos-servico">Termos de Serviço</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão WhatsApp Flutuante -->
+    <a href="https://wa.me/5511999999999?text=Olá%20Marmoraria%20Monteiro!%20Gostaria%20de%20um%20orçamento" class="whatsapp-button" aria-label="Contato via WhatsApp">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
