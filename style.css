@@ -26,53 +26,10 @@ header {
     background-size: cover;
     background-position: center;
     height: 500px; /* Ajuste a altura conforme necessário */
-}
-
-.produtos {
+  }
+  .produtos {
     width: 300px;       /* Defina a largura desejada */
     height: auto;      /* Mantém a proporção */
     object-fit: cover; /* Preenche o espaço mantendo a proporção, cortando se necessário */
     object-position: center; /* Centraliza a imagem dentro do espaço */
-}
-
-/* Estilos para o portfólio */
-.portfolio-item {
-    position: relative;
-    overflow: hidden;  /* Garante que a imagem não vaze do container */
-    border-radius: 8px;
-}
-
-.portfolio-item img.img-fluid {
-    width: 100%;
-    height: 250px;    /* altura padrão das imagens */
-    object-fit: cover;    /* Preenche o espaço mantendo a proporção */
-    object-position: center; /* Centraliza a imagem */
-    transition: transform 0.3s ease; /* Adiciona uma transição suave */
-}
-
-.portfolio-item:hover img.img-fluid {
-    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
-}
-
-.portfolio-overlay {  /* Para a sobreposição de texto, se houver */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);  /* Cor de fundo semi-transparente */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;  /* Inicialmente invisível */
-    transition: opacity 0.3s ease; /* Transição suave */
-}
-
-.portfolio-item:hover .portfolio-overlay {
-    opacity: 1;  /* Torna a sobreposição visível */
-}
-
-.portfolio-content {  /* Estilo do conteúdo da sobreposição */
-    text-align: center;
-    color: white;
 }
